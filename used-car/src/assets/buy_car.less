@@ -1,0 +1,179 @@
+#buyCar{
+    // margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    .buyCar-box{
+        width:1200px;
+        margin:0 auto;
+        .crumb-search{
+            width:1200px;
+            margin:0 auto;
+            height:54px;
+            display:flex;
+            flex:none;
+            .breadcrumb{
+                height:54px;
+                margin-top:10px;
+                flex:auto;
+            .crumb-item{
+                height:54px;
+                line-height:54px;
+            }
+            }
+            .search{
+                height:54px;
+                margin-top:20px;
+                .search-box{
+                    float:right; 
+                    width:200px;
+                    height:30px;
+                    border:1px solid #ccc;
+                    input{
+                        border:none;
+                        height:30px;
+                        margin-left:5px;
+                        outline:none;
+                    }
+                    .iconfont{
+                        font-size:21px;
+                        cursor: pointer;
+                    }
+                }
+                .search-select{
+                    z-index: 9999;
+                    width:200px;
+                    border:1px solid #ccc;
+                    border-top:none;
+                    background-color: #fff;
+                    li{
+                        // margin:4px;
+                        font-size:14px;
+                    }
+                }
+            }
+        }
+        .classify{
+                width:1200px;
+                margin:0 auto;
+                height:54px;
+                flex:auto;
+                height:100%;
+                .classify-brand{
+                    overflow: hidden;
+                    span{
+                        float:right;
+                        margin-right:5px;
+                    }
+                }
+                .hot{
+                    height:54px;
+                    margin-top:10px;
+                    border:1px solid #ccc;
+                    line-height:54px;
+                    font-size: 14px;
+                    b{
+                        float:left;
+                        // margin-left:10px;
+                        width:50px;
+                        text-align:center;
+                        background-color: #ccc;
+                    }
+                    a{
+                        float:left;
+                        margin-left:35px;
+                        background-color: olive;
+                        height:26px;
+                        line-height:26px;
+                        margin-top:15px;
+                        color:#fff;
+                    }
+                    li{
+                        float:left;
+                        height:30px;
+                        margin-left:35px;
+                        
+                    }
+                    li:hover{
+                        color:orange;
+                        cursor:pointer;
+                    }
+                    
+                    span:hover{
+                        color:orange;
+                        cursor:pointer;
+                    }
+                }
+                .all-brand{
+                    display:flex;
+                    border:1px solid #ccc;
+                    border-top:none;
+                    ul{
+                        width:300px;
+                        flex:none;
+                        // background-color: #ccc;
+                        li{
+                            width:300px;
+                            text-align:left;
+                            margin-top:10px;
+                            display:flex;
+                            strong{
+                                width:50px;
+                                color:olive;
+                                flex:none;
+                                margin-left:50px;
+                            }
+                            p{  
+                                // height:20px;
+                                // margin-left:20px;
+                                flex:auto;
+                                
+                                a{
+
+                                    // background-color: #ccc;
+                                    color:#000;
+                                    font-size:14px;
+                                    margin-left:10px;
+                                }
+                                a:hover{
+                                    color:orange;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+        }
+        .car-msg{
+            display:flex;
+            height:100%;
+            flex-wrap:wrap;
+            margin-top:20px;
+            margin-left:-11.3px;
+            #carmsg{
+                width:290px;
+                flex:auto;
+                margin:0 0 10px 11.3px;
+            }
+        }
+        #carmsg:hover{
+            border:1px solid #ccc;
+            box-shadow: 10px 10px 5px #888888;
+            transition-duration:.5s;
+        }
+        .el-pagination{
+            width:400px;
+            margin:0 auto;
+        }
+    }
+   
+    .copy_right{
+        width:100%;
+        height:100px;
+        background-color: #2b333b;
+        color:#eee;
+        font-size: 12px;
+        text-align: center;
+        line-height:100px;
+        
+    }
+}

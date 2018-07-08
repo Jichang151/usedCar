@@ -1,0 +1,165 @@
+#buyCar {
+  display: flex;
+  flex-direction: column;
+}
+#buyCar .buyCar-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#buyCar .buyCar-box .crumb-search {
+  width: 1200px;
+  margin: 0 auto;
+  height: 54px;
+  display: flex;
+  flex: none;
+}
+#buyCar .buyCar-box .crumb-search .breadcrumb {
+  height: 54px;
+  margin-top: 10px;
+  flex: auto;
+}
+#buyCar .buyCar-box .crumb-search .breadcrumb .crumb-item {
+  height: 54px;
+  line-height: 54px;
+}
+#buyCar .buyCar-box .crumb-search .search {
+  height: 54px;
+  margin-top: 20px;
+}
+#buyCar .buyCar-box .crumb-search .search .search-box {
+  float: right;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+#buyCar .buyCar-box .crumb-search .search .search-box input {
+  border: none;
+  height: 30px;
+  margin-left: 5px;
+  outline: none;
+}
+#buyCar .buyCar-box .crumb-search .search .search-box .iconfont {
+  font-size: 21px;
+  cursor: pointer;
+}
+#buyCar .buyCar-box .crumb-search .search .search-select {
+  z-index: 9999;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+}
+#buyCar .buyCar-box .crumb-search .search .search-select li {
+  font-size: 14px;
+}
+#buyCar .buyCar-box .classify {
+  width: 1200px;
+  margin: 0 auto;
+  height: 54px;
+  flex: auto;
+  height: 100%;
+}
+#buyCar .buyCar-box .classify .classify-brand {
+  overflow: hidden;
+}
+#buyCar .buyCar-box .classify .classify-brand span {
+  float: right;
+  margin-right: 5px;
+}
+#buyCar .buyCar-box .classify .hot {
+  height: 54px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  line-height: 54px;
+  font-size: 14px;
+}
+#buyCar .buyCar-box .classify .hot b {
+  float: left;
+  width: 50px;
+  text-align: center;
+  background-color: #ccc;
+}
+#buyCar .buyCar-box .classify .hot a {
+  float: left;
+  margin-left: 35px;
+  background-color: olive;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 15px;
+  color: #fff;
+}
+#buyCar .buyCar-box .classify .hot li {
+  float: left;
+  height: 30px;
+  margin-left: 35px;
+}
+#buyCar .buyCar-box .classify .hot li:hover {
+  color: orange;
+  cursor: pointer;
+}
+#buyCar .buyCar-box .classify .hot span:hover {
+  color: orange;
+  cursor: pointer;
+}
+#buyCar .buyCar-box .classify .all-brand {
+  display: flex;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#buyCar .buyCar-box .classify .all-brand ul {
+  width: 300px;
+  flex: none;
+}
+#buyCar .buyCar-box .classify .all-brand ul li {
+  width: 300px;
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+}
+#buyCar .buyCar-box .classify .all-brand ul li strong {
+  width: 50px;
+  color: olive;
+  flex: none;
+  margin-left: 50px;
+}
+#buyCar .buyCar-box .classify .all-brand ul li p {
+  flex: auto;
+}
+#buyCar .buyCar-box .classify .all-brand ul li p a {
+  color: #000;
+  font-size: 14px;
+  margin-left: 10px;
+}
+#buyCar .buyCar-box .classify .all-brand ul li p a:hover {
+  color: orange;
+}
+#buyCar .buyCar-box .car-msg {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: -11.3px;
+}
+#buyCar .buyCar-box .car-msg #carmsg {
+  width: 290px;
+  flex: auto;
+  margin: 0 0 10px 11.3px;
+}
+#buyCar .buyCar-box #carmsg:hover {
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 5px #888888;
+  transition-duration: .5s;
+}
+#buyCar .buyCar-box .el-pagination {
+  width: 400px;
+  margin: 0 auto;
+}
+#buyCar .copy_right {
+  width: 100%;
+  height: 100px;
+  background-color: #2b333b;
+  color: #eee;
+  font-size: 12px;
+  text-align: center;
+  line-height: 100px;
+}
